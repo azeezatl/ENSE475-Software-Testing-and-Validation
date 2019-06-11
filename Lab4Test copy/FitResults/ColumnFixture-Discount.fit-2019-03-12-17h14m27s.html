@@ -1,0 +1,69 @@
+<html><head><title>Suite ColumnFixture-Discount.fit run at: Tue Mar 12 17:14:28 CST 2019</title>
+	<link rel="stylesheet" type="text/css" href="css/fitnesse.css" media="screen"/>
+ 	<link rel="stylesheet" type="text/css" href="css/fitnesse.css" media="print"/>
+<script language="JavaScript" type="text/javascript">
+var collapsableOpenCss = "collapsable"
+var collapsableClosedCss = "hidden"
+var collapsableOpenImg = "images/collapsableOpen.gif"
+var collapsableClosedImg = "images/collapsableClosed.gif"
+function toggleCollapsable(id){
+var div = document.getElementById(id);
+var img = document.getElementById("img" + id);
+if(div.className.indexOf(collapsableClosedCss) != -1) {
+div.className = collapsableOpenCss;
+img.src = collapsableOpenImg;
+} else {
+div.className = collapsableClosedCss;
+img.src = collapsableClosedImg;
+} }
+</script>
+
+</head>
+<body>
+<div> Suite is: /Users/azeezatlawal/Documents/workspace/Lab4Test/FitTests/ColumnFixture-Discount.fit</div><div class="test_output_name">Name: ColumnFixture-Discount.fit</div><div> Suite executed at: Tue Mar 12 17:14:28 CST 2019 Elapsed time: 130 millseconds  </div><table><tr><td></td><td><a href="#219a21c:169742f9085:-8000">ColumnFixture-Discount.fit</a></td><td class="pass">4 right, 0 wrong, 0 ignored, 0 exceptions</td></tr></table><div class="test_output_name"><a name="219a21c:169742f9085:-8000"/><p>Test file: ColumnFixture-Discount.fit</p></div><html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p><font color="#3f7f5f" size="2">//This example&nbsp;is from &quot;Fit for Developing Software: Framework for Integrated Tests&quot; by Rick Mugridge and Ward Cunninham. New Jersey: Pearson Education, 2005.//</font></p>
+        <p><strong>Business rule: A 5% discount is provided on a total purchase greater than 1000.</strong></p>
+        <p>We have used a column fixture here, which is good for testing calculations.</p>
+        <p>Associated Fit test table:</p>
+        <p>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                    <p>CalculateDiscount</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>amount</td>
+                    <td>discount()</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td class="pass">0</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td class="pass">0</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td class="pass">0</td>
+                </tr>
+                <tr>
+                    <td>1010</td>
+                    <td class="pass">50.50</td>
+                </tr>
+            </tbody>
+        </table>
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </body>
+</html>
+
+</body></html>

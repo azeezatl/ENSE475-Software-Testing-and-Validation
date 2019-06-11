@@ -1,0 +1,1684 @@
+<html><head><title>Suite CommissionTest.fit run at: Wed Mar 13 00:22:02 CST 2019</title>
+	<link rel="stylesheet" type="text/css" href="css/fitnesse.css" media="screen"/>
+ 	<link rel="stylesheet" type="text/css" href="css/fitnesse.css" media="print"/>
+<script language="JavaScript" type="text/javascript">
+var collapsableOpenCss = "collapsable"
+var collapsableClosedCss = "hidden"
+var collapsableOpenImg = "images/collapsableOpen.gif"
+var collapsableClosedImg = "images/collapsableClosed.gif"
+function toggleCollapsable(id){
+var div = document.getElementById(id);
+var img = document.getElementById("img" + id);
+if(div.className.indexOf(collapsableClosedCss) != -1) {
+div.className = collapsableOpenCss;
+img.src = collapsableOpenImg;
+} else {
+div.className = collapsableClosedCss;
+img.src = collapsableClosedImg;
+} }
+</script>
+
+</head>
+<body>
+<div> Suite is: /Users/azeezatlawal/Documents/workspace/Lab4Test/FitTests/CommissionTest.fit</div><div class="test_output_name">Name: CommissionTest.fit</div><div> Suite executed at: Wed Mar 13 00:22:02 CST 2019 Elapsed time: 126 millseconds  </div><table><tr><td></td><td><a href="#-1b787137:16975b705de:-8000">CommissionTest.fit</a></td><td class="error">0 right, 0 wrong, 0 ignored, 49 exceptions</td></tr></table><div class="test_output_name"><a name="-1b787137:16975b705de:-8000"/><p>Test file: CommissionTest.fit</p></div><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<table>
+			<tbody>
+				<tr>
+					<td colspan="5">
+						edu.ense475.FITCommission.CommissionTest</td>
+				</tr>
+				<tr>
+					<td>
+						locks</td>
+					<td>
+						stocks</td>
+					<td>
+						barrels</td>
+					<td class="error">
+						tstCalculateSales()<hr/> <span class="fit_label">Could not find method: tstCalculateSales().</span></td>
+					<td>
+						tstCalculateCommission()</td>
+				</tr>
+				<tr>
+					<td>
+						0</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						2370.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						334.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						1</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						2370.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						334.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						2</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						2415.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						343.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						3900.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						640.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						69</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						5430.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						946.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						70</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						5475.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						955.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						71</td>
+					<td>
+						40</td>
+					<td>
+						45</td>
+					<td class="error">
+						5475.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						955.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						0</td>
+					<td>
+						45</td>
+					<td class="error">
+						2730.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						406.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						1</td>
+					<td>
+						45</td>
+					<td class="error">
+						2730.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						406.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						2</td>
+					<td>
+						45</td>
+					<td class="error">
+						2760.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						412.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						79</td>
+					<td>
+						45</td>
+					<td class="error">
+						5070.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						874.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						80</td>
+					<td>
+						45</td>
+					<td class="error">
+						5100.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						880.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						81</td>
+					<td>
+						45</td>
+					<td class="error">
+						5100.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						880.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						0</td>
+					<td class="error">
+						2800.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						420.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						1</td>
+					<td class="error">
+						2800.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						420.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						2</td>
+					<td class="error">
+						2825.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						425.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						89</td>
+					<td class="error">
+						5000.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						860.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						90</td>
+					<td class="error">
+						5025.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						865.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						35</td>
+					<td>
+						40</td>
+					<td>
+						91</td>
+					<td class="error">
+						5025.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						865.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						1</td>
+					<td>
+						1</td>
+					<td>
+						1</td>
+					<td class="error">
+						100.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						10.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						1</td>
+					<td>
+						1</td>
+					<td>
+						37</td>
+					<td class="error">
+						1000.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						100.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						5</td>
+					<td>
+						45</td>
+					<td>
+						5</td>
+					<td class="error">
+						1700.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						205.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						1</td>
+					<td>
+						1</td>
+					<td>
+						69</td>
+					<td class="error">
+						1800.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						220.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+				<tr>
+					<td>
+						5</td>
+					<td>
+						30</td>
+					<td>
+						35</td>
+					<td class="error">
+						2000.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+					<td class="error">
+						260.00<hr><pre><div class="fit_stacktrace">java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(Unknown Source)
+	at fit.Fixture.doCells(Unknown Source)
+	at fit.Fixture.doRow(Unknown Source)
+	at fit.ColumnFixture.doRow(Unknown Source)
+	at fit.Fixture.doRows(Unknown Source)
+	at fit.ColumnFixture.doRows(Unknown Source)
+	at fit.Fixture.doTable(Unknown Source)
+	at fit.Fixture.interpretTables(Unknown Source)
+	at fit.Fixture.doTables(Unknown Source)
+	at fitlibrary.suite.IndependentSuiteRunner.runEachStorytest(IndependentSuiteRunner.java:53)
+	at fitlibrary.suite.IndependentSuiteRunner.runFirstStorytest(IndependentSuiteRunner.java:28)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.doTables(FitLibraryFitProvider.java:168)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.generateParseResult(FitLibraryFitProvider.java:96)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runSingleFITTest(FitLibraryFitProvider.java:78)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runValidTestFile(FitLibraryFitProvider.java:58)
+	at com.luxoft.fitpro.adapters.fit.FitLibraryFitProvider.runFIT(FitLibraryFitProvider.java:39)
+	at com.luxoft.fitpro.core.testcase.SequentialRunnerStrategy.run(SequentialRunnerStrategy.java:18)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.runTest(RunnerVisitor.java:59)
+	at com.luxoft.fitpro.core.tester.RunnerVisitor.visit(RunnerVisitor.java:51)
+	at com.luxoft.fitpro.core.testcase.TestFile.accept(TestFile.java:51)
+	at com.luxoft.fitpro.runner.TestCaseRunner.run(TestCaseRunner.java:100)
+	at com.luxoft.fitpro.runner.TestCaseRunner.main(TestCaseRunner.java:55)
+</div></pre></td>
+				</tr>
+			</tbody>
+		</table></body>
+</html>
+
+</body></html>
